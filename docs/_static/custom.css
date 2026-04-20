@@ -1,0 +1,49 @@
+/* Общий фон */
+body {
+    background: #0f1117;
+}
+
+/* Контент */
+.wy-nav-content {
+    max-width: 900px;
+    background: #161922;
+    color: #d8dee9;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+/* Полки (слева) */
+.wy-menu-vertical a {
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.wy-menu-vertical a:hover {
+    background: rgba(255,255,255,0.05);
+}
+
+/* Активный пункт */
+.wy-menu-vertical a.current {
+    background: rgba(100,150,255,0.2);
+}
+
+/* Заголовки */
+h1, h2, h3 {
+    color: #88c0d0;
+}
+
+/* Блоки */
+.rst-content .note {
+    background: rgba(100,150,255,0.1);
+    border-left: 4px solid #7aa2f7;
+}
+
+.rst-content .tip {
+    background: rgba(100,255,150,0.1);
+    border-left: 4px solid #50fa7b;
+}
+
+.rst-content .warning {
+    background: rgba(255,100,100,0.1);
+    border-left: 4px solid #ff6b6b;
+}
